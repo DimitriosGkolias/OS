@@ -1,0 +1,56 @@
+/home/dgkolias/OS/Lab05
+example1
+example1.c
+example2
+example2.c
+example3
+example3.c
+example4
+example4.c
+example5
+example5.c
+example6
+example6.c
+log
+-bash: cd: /home/dgkolias/OS/lab05: No such file or directory
+  File: example1.c
+  Size: 485       	Blocks: 8          IO Block: 4096   regular file
+Device: 811h/2065d	Inode: 410279      Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1268/dgkolias)   Gid: ( 1270/dgkolias)
+Access: 2024-12-19 12:22:47.259975522 +0200
+Modify: 2024-12-19 12:20:12.750349464 +0200
+Change: 2024-12-19 12:21:41.551283973 +0200
+ Birth: -
+./example1.c
+#include <stdio.h>
+
+int main(void) {
+    int x = 10;      // A normal integer variable
+    int *p;          // p is a pointer to an integer
+
+    p = &x;          // p now holds the address of x
+
+    printf("Value of x: %d\n", x);
+    printf("Address of x: %p\n", (void*)&x);
+    printf("Value of p: %p\n", (void*)p);
+    printf("Value pointed to by p: %d\n", *p);
+
+    *p = 20;         // Change the value of x using the pointer
+    printf("New value of x: %d\n", x);
+
+    return 0;
+}
+tar: Cowardly refusing to create an empty archive
+Try 'tar --help' or 'tar --usage' for more information.
+./
+./example2.c
+./example4.c
+./lab05.tar.gz
+./v
+./example5.c
+./example3.c
+tar: ./Lab05.tar.gz: file is the archive; not dumped
+./example1.c
+./example6.c
+./log
+tar: ./log: file changed as we read it
